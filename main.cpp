@@ -10,7 +10,7 @@ int main()
 	std::vector<sf::RectangleShape> particles;
 
     while (window.isOpen())
-    {
+    {   
         // event handling
         while (const std::optional<sf::Event> event = window.pollEvent())
         {   
